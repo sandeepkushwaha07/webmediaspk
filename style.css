@@ -1,0 +1,300 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f4f0f07a;
+}
+
+:root {
+    --primary: #000;
+    --secondory: #000000;
+    --white: #fff;
+    --button-color: #000000;
+    -
+}
+
+ .navbar-logo {
+            max-height: 50px;
+        }
+         body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #343a40; 
+            padding: 1rem 2rem; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        }
+
+        .navbar-brand img {
+            max-height: 50px; 
+        }
+
+        .navbar-nav .nav-link {
+            color: #000 !important; 
+            font-size: 26px; 
+            margin-left: 16px; 
+            font-weight: 600 ;
+
+            transition: color 0.3s; 
+        }
+
+        
+
+        
+        .sticky-navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1030; 
+        }
+
+
+
+        /*header*/
+
+ .headerRight h1 {
+    font-size: 72px;
+    /* color: #fff; */
+    line-height: 82px;
+    font-weight: 700;
+}
+.head1, .p1 {
+    color: #000 !important;
+}
+.p1,  {
+    font-size: 18px;
+ 
+}
+.headerRight {
+    margin-top: 60px;
+}
+ .headerRight {
+    margin-top: 60px;
+}
+
+button.btn.btn-danger {
+    width: 22%;
+    background: #000;
+    margin-top: 40px;
+    height: 53px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    border: none;
+}
+
+.img-contain {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 30px;
+    filter: grayscale(1);
+}
+
+.icon i {
+    color: black;
+    width: 70px;
+    height: 70px;
+    font-size: 32px;
+}
+
+
+
+
+.icon {
+    position: absolute;
+    background: #fff;
+    /* right: -30px; */
+    border-radius: 15px;
+    top: 665px;
+    left: 46%;
+}
+
+.about {
+    width: 100%;
+    margin: 51px;
+}
+
+.about h2 {
+    font-size: 48px;
+    color: var(--secondory);
+    font-weight: 700;
+}
+
+.about p {
+    font-size: 15px;
+    color: var(--secondory);
+    line-height: 25px;
+}
+
+.iconList .list i {
+    background-color: transparent;
+    background-image: var(--primary);
+    width: 26px;
+    height: 26px;
+    color: var(--white);
+    font-size: 11px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list p {
+    font-weight: 500;
+}
+.iconList .list i {
+    background: #000;
+}
+
+li.d-flex.align-items-center.list i {
+    background: #000;
+    padding: 10px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+}
+.check_icon {
+    width: 52%;
+    background: #5b51516b;
+    /* margin-left: 10px; */
+    /* padding: 2px; */
+    padding-left: 21px;
+    height: 55px;
+    border-radius: 8px;
+}
+li.d-flex.align-items-center.list p {
+    margin-top: 5px;
+    padding-top: 10px;
+    margin-left: 23px;
+    color: #fff;
+}
+
+.icons {
+    width: 28%;
+    height: 87px;
+    font-size: 50px;
+    background: red;
+    padding-left: 28px;
+    border-radius: 53px;
+}
+
+.icons {
+    width: 60%;
+    height: 87px;
+    font-size: 42px;
+    background: #171313;
+    padding-left: 28px;
+    color: #fff;
+    border-radius: 53px;
+    padding-top: 6px;
+}
+
+button.btnspk {
+    border: none;
+    background: #e8e8e8;
+    font-size: 15px;
+    width: 93px;
+}
+section.service {
+    margin-top: 67px;
+    margin-bottom: 30px;
+}
+
+
+
+button.btn.btn-success {
+	  width: 34%;
+    background: #000;
+    margin-top: 40px;
+    height: 53px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    border: none;
+
+}
+.lasttext {
+    top: 50%;
+    margin-top: 32%;
+}
+
+
+.img-man {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 30px;
+    filter: grayscale(1);
+}
+
+.icon i {
+    color: black;
+    width: 70px;
+    height: 70px;
+    font-size: 32px;
+}
+
+
+
+
+.icon {
+    position: absolute;
+    background: #fff;
+    /* right: -30px; */
+    border-radius: 15px;
+    top: 665px;
+    left: 46%;
+}
+
+.manimg {
+    margin-top: 20%;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
+
+img.navbar-logo {
+    width: 58%;
+}
+.headerRight h1 {
+    font-size: 44px;
+    /* color: #fff; */
+    line-height: 47px;
+    font-weight: 700;
+}
+button.btn.btn-danger {
+    width: 100%;
+    
+}
+
+.icon {
+    
+    top: 555px;
+    left: 80%;
+}
+
+.about {
+    width: 100%;
+    margin: 0px; 
+}
+   
+   .check_icon {
+    width: 99%;
+  
+}
+
+li.d-flex.align-items-center.list p {
+    
+    margin-left: 79px;
+   
+}
+.text {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.icons {
+    width: 29%;
+   
+    margin: auto;
+}
+}
+
+
+
